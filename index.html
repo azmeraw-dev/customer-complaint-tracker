@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Complaint Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Customer Complaint Tracker</h1>
+
+  <div class="complaint-form">
+    <input type="text" id="customerName" placeholder="Customer Name">
+    <input type="text" id="phoneNumber" placeholder="Phone Number">
+    <select id="prioritySelect">
+      <option value="Low">Low Priority</option>
+      <option value="Medium">Medium Priority</option>
+      <option value="High">High Priority</option>
+    </select>
+    <textarea id="complaintText" placeholder="Enter complaint details"></textarea>
+    <button id="addBtn">Add Complaint</button>
+  </div>
+
+  <div class="table-controls">
+    <input type="text" id="searchInput" placeholder="Search by name or phone...">
+    <button id="clearBtn">Clear All</button>
+    <button id="exportBtn">Export CSV</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Customer Name</th>
+        <th>Phone</th>
+        <th>Complaint</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="complaintTable"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+  <footer>
+  <p>&copy; 2025 Ethio Telecom. Designed by Azmeraw Bitew.</p>
+</footer>
+
+</body>
+</html>
+
+
+
+  

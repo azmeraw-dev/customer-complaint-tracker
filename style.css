@@ -1,0 +1,141 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #1BA548;
+  margin-bottom: 20px;
+}
+
+.complaint-form {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  border-left: 6px solid #1BA548;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.complaint-form input,
+.complaint-form textarea,
+.complaint-form select,
+.complaint-form button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.complaint-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.complaint-form button {
+  background: #1BA548;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.complaint-form button:hover {
+  background: #148a38;
+}
+
+.table-controls {
+  max-width: 900px;
+  margin: 0 auto 10px;
+  text-align: right;
+}
+
+.table-controls input {
+  padding:8px;
+  width: 250px;
+  margin-right: 10px;
+  border-radius:5px;
+  border:1px solid #ccc;
+}
+
+.table-controls button {
+  padding:8px 12px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+#clearBtn { background:#e53935; color:white; }
+#exportBtn { background:#FFD200; color:#333; }
+
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #1BA548;
+  color: white;
+  font-weight: bold;
+}
+
+.status-pending {
+  color: #e53935;
+  font-weight: bold;
+}
+
+.status-resolved {
+  color: #1BA548;
+  font-weight: bold;
+}
+
+.priority-low { color: #1BA548; font-weight: bold; }
+.priority-medium { color: #FF9800; font-weight: bold; }
+.priority-high { color: #e53935; font-weight: bold; }
+
+.action-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.resolve-btn {
+  background: #FFD200;
+  color: #333;
+  font-weight: bold;
+}
+
+.resolve-btn:hover {
+  background: #e6c200;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px 0;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #ccc;
+  font-style: italic;
+}
