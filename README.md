@@ -21,11 +21,15 @@ A simple web-based application to track and manage customer complaints. The syst
 * **Backend:** Node.js 
 * **Database:** MongoDB / MySQL
 
-## 📌 Roadmap
+🔮 Future Improvements
 
-* [ ] Add authentication (login system for users & admins).
-* [ ] Email notifications for complaint updates.
-* [ ] Analytics dashboard for admins.
+  * User login & authentication
+
+  * Admin dashboard
+
+  * Cloud database integration
+
+ * Analytics & reporting
 
 
 
